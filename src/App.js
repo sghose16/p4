@@ -1,5 +1,5 @@
 
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import Home from './pages/Home';
 import Signup from './pages/Signup';
 import Success from './pages/Success'
@@ -14,7 +14,7 @@ function App() {
       <div>
         <section>                              
             <Routes> 
-                <Route path="/" element={<Home/>}/>
+                <Route path="/p4" element={<Home/>}/>
                 <Route path="/signup" element={<Signup/>}/>
                 <Route path="/login" element={<Login/>}/>
                 <Route path="/success" element={<Success/>}/>

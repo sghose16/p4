@@ -61,7 +61,7 @@ const Success = (props) => {
     const handleLogout = () => {               
         signOut(auth).then(() => {
         // Sign-out successful.
-            navigate("/");
+            navigate("/p4");
             console.log("Signed out successfully")
         }).catch((error) => {});
     }
