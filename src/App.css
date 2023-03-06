@@ -1,10 +1,17 @@
 .App {
   text-align: center;
+  margin-top: 5%;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+
+ul.myUL {
+  display: inline-block;
+  text-align: left;
 }
 
 @media (prefers-reduced-motion: no-preference) {
